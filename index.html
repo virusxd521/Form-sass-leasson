@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="stylesheet" href="./dst/styles/main.css">
+</head>
+
+<body>
+    <h1>Feedback Form</h1>
+    <form class="form">
+        <div class="text-inputs">
+            <div class="name-input">
+                <label for="name">NAME</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <!-- Email -->
+            <div class="email-input">
+                <label for="email">EMAIL</label>
+                <input id="email" name="email" type="email">
+            </div>
+        </div>
+
+        <!-- Select batch  -->
+        <div class="select-batch">
+            <label for="batches">CHOOSE BATCH</label>
+            <select id="batches">
+                <option value="winter">Winter 2020</option>
+                <option value="summer">Summer 2020</option>
+                <option value="spring">Spring 2020</option>
+            </select>
+        </div>
+
+        <!-- radio buttons   -->
+        <div class="radio-buttons">
+            <label for="batch">DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1?</label><br>
+            <div>
+                <input id="yes" name="batch" type="radio">
+                <label for="yes">Yes</label>
+            </div>
+            <div>
+                <input id="No" name="batch" type="radio">
+                <label for="No">No</label>
+            </div>
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="check-boxes">
+            <p>CHOOSE YOUR FAVORITE EXERCISES</p><br>
+            <input name="css-selector" id="css-selector" type="checkbox">
+            <label for="css-selector">CSS selectors</label><br>
+
+            <input name="book-page" id="book-page" type="checkbox">
+            <label for="book-page">Book page</label><br>
+
+            <input name="belfast" id="belfast" type="checkbox">
+            <label for="belfast">Belfast International kindergarden</label><br>
+
+
+            <input name="crownsnest" id="crownsnest" type="checkbox">
+            <label for="crownsnest">Crownsnest Retreat</label><br>
+
+            <input name="google-page" id="google-page" type="checkbox">
+            <label for="google-page">Google page</label><br>
+
+            <input name="doc-page" id="doc-page" type="checkbox">
+            <label for="doc-page">Documantation page</label><br>
+
+            <input name="aneta" id="aneta" type="checkbox">
+            <label for="aneta">Aneta Webbie Personal Portfoilio</label><br>
+        </div>
+
+
+
+        <!-- Textarea -->
+        <div class="text-feedback">
+            <p>WRITE FEEDBACK</p>
+            <textarea name="" id=""></textarea><br>
+        </div>
+        <!-- submit button -->
+        <input type="submit">
+    </form>
+</body>
+
+</html>

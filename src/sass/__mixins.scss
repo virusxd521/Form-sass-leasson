@@ -1,0 +1,10 @@
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin inputs {
+  border-radius: 3px;
+  padding: 9px 0;
+  margin-bottom: 20px;
+}

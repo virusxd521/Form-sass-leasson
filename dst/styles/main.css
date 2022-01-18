@@ -1,0 +1,102 @@
+body {
+  background-color: #001555;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body * {
+  margin: 0 auto;
+}
+
+.form {
+  margin-top: 20px;
+  background-color: rgba(34, 34, 202, 0.4);
+  border-radius: 12px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.form * {
+  width: 90%;
+}
+.form .text-inputs {
+  width: 100%;
+}
+.form .text-inputs .name-input,
+.form .text-inputs .email-input {
+  display: flex;
+  flex-direction: column;
+}
+.form .text-inputs .name-input label,
+.form .text-inputs .email-input label {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.form .text-inputs input {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 0;
+  margin-bottom: 20px;
+}
+.form .select-batch {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.form .select-batch select {
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 3px;
+  padding: 9px 0;
+  margin-bottom: 20px;
+}
+.form .radio-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form .radio-buttons div {
+  width: 100%;
+}
+.form .radio-buttons div input {
+  width: 9%;
+  margin-left: 10px;
+}
+.form .radio-buttons div label {
+  margin-left: -15px;
+}
+.form .check-boxes p {
+  margin-left: 0;
+  margin-top: 15px;
+}
+.form .check-boxes input {
+  width: 5%;
+  height: 10%;
+  margin-left: -7px;
+}
+.form input[type=submit] {
+  width: 20%;
+  margin: 40px auto;
+  padding: 12px 0;
+  border-radius: 5px;
+  border: none;
+}
+.form .text-feedback {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+}
+.form .text-feedback p {
+  margin-bottom: 10px;
+}
+.form .text-feedback textarea {
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 20vh;
+  resize: none;
+}
